@@ -1,0 +1,220 @@
+.margin{
+height:50px;
+background-image:url(images/top.gif);
+background-repeat: no-repeat;
+}
+.margin1{height:40px;
+}
+.margin2{height:66px;
+background-image:url(images/bottom.gif);
+background-repeat: no-repeat;
+}
+img.left {float: left; margin: 2px 10px 5px 0; border: 1px solid #fffdd5;}
+img.right {float: right; margin: 2px 0 5px 10px; border: 1px solid #fffdd5;}
+.subcolumn1-2 {float: left; width: 49%;}
+.subcolumn1-2 p {font-size:.8em;line-height: 100%;}
+.subcolumn2-2 {float: right; width: 49%;}
+.subcolumn2-2 p {font-size:.8em;line-height: 100%;}
+div.clearer {clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px;}
+p#msie { /* msie-bug note for text/plain */
+  float: right;
+  border: 1px solid black;
+  width: 15em;
+  padding: 1em;
+  text-align: left;
+  font-size: smaller;
+}
+html {}
+body {
+  color:#ed1b25;
+    margin: auto auto;
+    padding-right: 0;
+    font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 130%;
+    text-align: center;
+  background-color:#FFFAC5;
+}
+#inhalt1 {
+  text-align: left;
+  vertical-align: middle;
+  margin: 0px auto;
+  padding: 0px;
+  width: 740px;
+  background-color: #E40016;
+  color: #FFFAC5;
+}
+#inhalt {
+  vertical-align: middle;
+  margin: 0px auto;
+  padding: 0px;
+  width: 840px;
+  background-color:#EE0C22;
+  background-image:url('images/middle.gif');
+  background-repeat: repeat-y;
+  color: #ed1b25;
+}
+#banner {
+    padding: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+#banner h1 {
+    font-size: 1.5em;
+    font-family: "Bitstream Vera Sans", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    vertical-align: middle;
+    /*font-size-adjust: .53;*/
+    display: inline;
+}
+.intro {
+  font-style: italic;
+  text-align: justify;
+}
+h1 {
+    color: black;
+    background-color:inherit;
+    font-family: "Bitstream Vera Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+  margin-top:0;
+}
+h2 {
+    color: black;
+    background-color: #FFFAC5;
+    padding: 5px 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    text-align: left;
+    text-decoration: none;
+    font-family: Georgia, Didot, serif;
+    /*border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;*/
+}
+h3 {
+    color: #fff;
+    background-color: #0000cc;
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+    font-family: Georgia, Didot, serif;
+}
+h4 {
+    color: #777742;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-family: Georgia, Didot, serif;
+    background-color: #ed1b25;
+}
+h5,h6 {
+    color: #777742;
+    background-color: white;
+    font-family: Georgia, Didot, serif;
+    }
+#inhalt1 a {
+  color: #FFFAC5;
+  background-color:transparent;
+    text-decoration: none;
+}
+a.schede:hover {
+  color: #ffffff;
+  background-color: #000000;
+    text-decoration: none;
+}
+#inhalt1 img a:hover {background-color:transparent;}/* was #ed1b25 */
+
+#inhalt1 a:hover {
+    color: black;
+    background-color: #FFF9C5;
+}
+p, dt {
+    margin-left: 15px;
+    margin-right: 25px;
+}
+dd {
+    margin-left: 35px;
+    margin-right: 25px;
+}
+#news dt {
+    font-weight: bold;
+     margin-top: 1em;
+   }
+img {
+    margin:0;
+    padding: 0;
+    vertical-align: middle;
+  background-color:#E40016;
+    border: 0;
+}
+acronym:hover, abbr:hover {
+    cursor: help;
+}
+abbr[title], acronym[title], span[title], strong[title] {
+    border-bottom: thin dotted;
+    cursor: help;
+}
+pre, code, tt {
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Andale Mono", monospace;
+    line-height: 100%;
+    white-space: pre;
+}
+ul.toc {
+    list-style: none
+}
+.copyright {
+  font-size: 0.8em;
+  text-align: center;
+  margin-left: auto;
+  font-family: "Bitstream Vera Sans Mono", monospace;
+  line-height: 120%;
+  background-color: white;
+  color:black;
+}
+.copyright a:link, a:visited, a:active {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+.copyright a:hover {
+  color: #ed1b25;
+  background-color: white;
+  text-decoration: underline;
+}
+.hideme { display: none; }
+input {
+    vertical-align: middle;
+}
+input.reset {
+    text-align: center;
+}
+input.default {
+    text-align: center;
+    font-weight: bold;
+}
+.updated{
+  color:black;
+}
+.smallcaps{
+  font-variant:small-caps;
+  font-weight:bold;
+}
+.inv{
+  color:#FFF9C5;
+  background-color:#E50011;
+}
+.red{
+  color:#E50011;
+}
